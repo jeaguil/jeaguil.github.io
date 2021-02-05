@@ -1,0 +1,24 @@
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+google-ID: 'UA-189012001-1'
+
+menu:
+- {name: 'About', folder: 'pages', file: 'about.html'}
+- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+
+# Available social icons are powered by Font Awesome
+social:
+#- {icon: 'envelope', link: 'jesus.aguilera3401@gmail.com'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'
