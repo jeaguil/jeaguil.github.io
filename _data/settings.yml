@@ -10,7 +10,9 @@ menu:
 
 # Available social icons are powered by Font Awesome
 social:
-#- {icon: 'envelope', link: 'jesus.aguilera3401@gmail.com'}
+- {icon: 'github', link: 'https://github.com/jeaguil'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/jesuscmaguilera/'}
+- {icon: 'envelope', link: 'mailto:jesus.aguilera3401@gmail.com'}
 
 # Customize site text
 pagination:
