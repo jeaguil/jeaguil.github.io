@@ -6,7 +6,7 @@ gem "minima", "~> 2.5"
 
 gem "nokogiri"
 
-gem "rack", "~> 2.0.1"
+gem "rack", "~> 2.1.4"
 
 gem "rspec"
 
