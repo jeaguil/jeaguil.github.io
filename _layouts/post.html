@@ -25,6 +25,10 @@ layout: default
     {% endif %}
   </span>
 
+  <span class="post-date">
+    {{ page.work-interval}}
+  </span>
+
   {% if page.image %}
     <div class="featured-image">
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
@@ -35,12 +39,12 @@ layout: default
     {{ content }}
   </article>
 
-  <div class="post-share">
+  <!-- <div class="post-share">
     <div class="post-date">{{ site.data.settings.sharing_button_prompt }}</div>
     <div class="sharing-icons">
       <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="related">
     <h2>{{ site.data.settings.related_posts }}</h2>
