@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solar Power Generation Forecast"
+title: "Solar Power Generation Forecast - Predictive data analysis"
 author: "Jesus Aguilera"
 tags: [sample]
 image: solar-farm.jpg
