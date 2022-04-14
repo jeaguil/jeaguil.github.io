@@ -3,6 +3,7 @@ layout: post
 title: "PatrolBot - Undergraduate capstone project"
 author: "Jesus Aguilera"
 tags: [sample]
+image: pb-rover-zero.PNG
 work-interval: August 2021 - Present
 ---
 __By: Jesus Aguilera, Brandon Banuelos, Connor Callister, Max Orloff, Michael Stepzinski__
