@@ -5,7 +5,7 @@ disqus:
 google-ID: 'UA-189012001-1'
 
 menu:
-- {name: 'Learning Resources', folder: 'pages', file: 'learning-resources.html'}
+# - {name: 'Learning Resources', folder: 'pages', file: 'learning-resources.html'}
 # - {name: 'About', folder: 'pages', file: 'about.html'}
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
