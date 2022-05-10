@@ -2,7 +2,7 @@ disqus:
   comments: false
   disqus_shortname: ''
 
-google-ID: 'UA-189012001-1'
+google-ID: ''
 
 menu:
 # - {name: 'Learning Resources', folder: 'pages', file: 'learning-resources.html'}
@@ -14,6 +14,7 @@ social:
 - {icon: 'github', link: 'https://github.com/jeaguil'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/jesuscmaguilera/'}
 - {icon: 'envelope', link: 'mailto:jesus.aguilera3401@gmail.com'}
+- {icon: 'rss-square', link: 'feed.xml'}
 
 # Customize site text
 pagination:

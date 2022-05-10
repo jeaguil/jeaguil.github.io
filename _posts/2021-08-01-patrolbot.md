@@ -5,6 +5,7 @@ author: "Jesus Aguilera"
 tags: [sample]
 image: pb-rover-zero.PNG
 work-interval: August 2021 - May 2022
+intro: PatrolBot is a robot which utilizes machine learning to help detect bike theft.
 ---
 ### By: Jesus Aguilera, Brandon Banuelos, Connor Callister, Max Orloff, Michael Stepzinski
 
