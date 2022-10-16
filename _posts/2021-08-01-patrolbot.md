@@ -9,7 +9,7 @@ intro: PatrolBot is a robot which utilizes machine learning to help detect bike 
 ---
 ### By: Jesus Aguilera, Brandon Banuelos, Connor Callister, Max Orloff, Michael Stepzinski
 
-The [PatrolBot](https://github.com/jeaguil/patrolbot){:target="_blank"} project is about creating a surveillance robot that will provide an essential
+The [<span style="color:blue">PatrolBot</span>](https://github.com/jeaguil/patrolbot){:target="_blank"} project is about creating a surveillance robot that will provide an essential
 tool for campus police at the university of Nevada, Reno. The goal is for the robot to scout bike racks around campus to look for any elements of
 bike theft. Governed by object detection models, threat computation algorithms and a back-end web server,
 the robot will help alleviate some pressure on campus police.
@@ -55,3 +55,23 @@ normal crowd behavior vs aggressive individual behavior. The intention is to cla
 #### Threat Detection Algorithm
 
 An algorithm is used to compute potential threats to notify a user if a bike theft is likely in progress. This algorithm utilizes the fundamentals of intersection-over-union of bounding boxes provided by the object detection model to determine if a potential threat exceeds a certain threat threshold.
+
+## Project Progress Documentations
+
+[Concept and Project Management](assets/documentation/Concept_and_Project_Management.pdf){:target="_blank"}
+
+[Project Specification and Design](assets/documentation/Project_Specification_and_Design.pdf){:target="_blank"}
+
+[Acceptance Criteria and Testing Strategy](assets/documentation/Acceptance_Criteria_and_Testing_Strategy.pdf){:target="_blank"}
+
+[Academic Poster](assets/documentation/Poster.pdf){:target="_blank"}
+
+## Project Related Resources
+
+[Intelligent Robots and Computer Vision XXI](https://unr.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&vid=01UNR_INST:DEFAULT&search_scope=MyInst_and_CI&tab=Everything&docid=alma991005119899706781){:target="_blank"}
+
+[Vision based method for object classification and multiple human activity recognition in video survelliance system](https://dl.acm.org/doi/10.1145/2381716.2381727){:target="_blank"}
+
+[Movement Human Actions Recognition Based on Machine Learning](https://online-journals.org/index.php/i-joe/article/view/8513){:target="_blank"}
+
+[Associating People Dropping off and Picking up Objects](http://www.bmva.org/bmvc/2007/papers/paper-164.html){:target="_blank"}
