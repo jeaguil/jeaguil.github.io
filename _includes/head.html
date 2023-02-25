@@ -2,9 +2,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+    {{ site.title }}
     {% else %}
-      {{ page.title }} | {{ site.title }}
+    {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
 
@@ -25,10 +25,7 @@
 
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-
-  <!-- Google Analytics -->
-  {% include google-analytics.html %}
+    </script>
 
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
