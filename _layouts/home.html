@@ -9,7 +9,7 @@ title: Home
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding:0;
+    padding: 0;
     margin: 0;
   }
 
@@ -21,16 +21,17 @@ title: Home
   }
 
   .fade_rule {
-        height: 1px;
-        background-color: #E6E6E6;
-        margin: auto;
-        background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
-}
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 1px;
+    background-color: #E6E6E6;
+    background-image: linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white));
+  }
 </style>
 
 <div class="box">
@@ -40,53 +41,54 @@ title: Home
     </h3>
   </div>
   <div class="author--module">
-    {{site.job}} at <a href="https://www.ciginsurance.com/" target="_blank">{{site.company}}</a>
+    {{site.job}}
   </div>
-  <!-- <div class="author--module">
-    {{site.description}}
-  </div> -->
   <div style="padding-top: 20px; padding-bottom: 20px;">
     {% for item in site.data.settings.menu %}
-      <a style="padding: 0;" href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+    <a style="padding: 0;" href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name
+      }}</a>
     {% endfor %}
   </div>
 </div>
 
-<div style="margin-top: 20px; margin-bottom: 50px;">
+<div>
   {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}"
-          aria-hidden="true"></i></a>
+  <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}"
+      aria-hidden="true"></i></a>
   {% endfor %}
 </div>
-<div class="fade_rule"></div> 
-<div style="margin-top: 20px;">
-  {% for post in paginator.posts %}
 
-  <article>
-    <a href="{{ site.github.url }}{{ post.url }}">
-      <!-- <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+<div class="fade_rule"></div>
+
+<div>
+
+  <h1><span>Projects</span></h1>
+
+  {% for post in site.posts %}
+
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <!-- <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
         <h2><span>{{ post.title }}</span></h2>
       </div> -->
-      <h2><span>{{ post.title }}</span></h2>
-    </a>
-    <span class="author--module">{{ post.intro }}</span>
-  </article>
+    <h2><span>{{ post.title }}</span></h2>
+  </a>
+  <span class="author--module">{{ post.intro }}</span>
   {% endfor %}
 
 </div>
 
+<div class="fade_rule"></div>
 
-<!-- Pagination links -->
-<!-- <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
+<h1><span>Refs</span></h1>
 
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div> -->
+<div>
+  <a href="{{ site.github.url }}/pages/learning-resources.html">
+    <h2><span>Learning Resources</span></h2>
+  </a>
+</div>
+
+<div>
+  <a href="{{ site.github.url }}/pages/techblogs.html">
+    <h2><span>Company tech blogs</span></h2>
+  </a>
+</div>

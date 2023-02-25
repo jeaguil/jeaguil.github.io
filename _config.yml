@@ -1,12 +1,6 @@
-title: jesusaguilera.com
-job: Software Engineer
-company: Capital Insurance Group
-description: >-
-  Dev
-author: Jesus Aguilera
-
-# jekyll-paginate cofiguration
-paginate: 5
+title: jeaguil.dev
+job: Software Developer
+author: jeg
 
 # Build settings
 markdown: kramdown
