@@ -21,10 +21,6 @@ figure {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-size: 45px 45px;
-  background-image:
-    linear-gradient(to right, rgb(208, 208, 208) 0.1px, transparent 1px),
-    linear-gradient(to bottom, rgb(208, 208, 208) 0.1px, transparent 1px);
 }
 
 /*
@@ -42,6 +38,7 @@ h6 {
   font-weight: bold;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
+  background-color: white;
 }
 
 h1 {
@@ -68,6 +65,10 @@ h6 {
 /* Body */
 body {
   font-family: $base-font-family;
+  background-size: 45px 45px;
+  background-image:
+    linear-gradient(to right, rgb(208, 208, 208) 0.1px, transparent 1px),
+    linear-gradient(to bottom, rgb(208, 208, 208) 0.1px, transparent 1px);
 }
 
 body img {
@@ -86,6 +87,7 @@ p {
   margin-right: 0;
   line-height: 1.65;
   font-family: $body-font-family;
+  background-color: white;
 }
 
 /* Lists */
