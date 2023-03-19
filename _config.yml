@@ -1,17 +1,22 @@
-title: jeaguil.dev
-job: Software Developer
-author: jeg
+title: Locality of Jeaguil
+author: Jesus Aguilera
+email: jesus.aguilera3401@gmail.com
+url: https://jeaguil.net
+baseurl: ""
+description: >
+  
 
-# Build settings
-markdown: kramdown
-highligher: rouge
-permalink: none
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
+favicon: "logo.png"
+
+theme_config:
+  appearance: "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: true
 
 sass:
-  sass_dir: assets/css
-  style: :nested
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

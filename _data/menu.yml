@@ -1,0 +1,35 @@
+entries:
+  - title: <a href='about.html'>about</a>
+  - title: info links
+    entries:
+      - title: "<a href='mailto:jesus.aguilera3401@gmail.com'>email</a>"
+      - title: "<a href='https://www.linkedin.com/in/jesuscmaguilera/' target='_blank'>linkedin</a>"
+      - title: "<a href='https://github.com/jeaguil' target='_blank'>github</a>"
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  # - title: categorizations
+  #   entries:
+      # - title: Character sprints
+      #   post_list:
+      #     category: thoughts
+      #     limit: 5
+      #     show_more: true
+      #     show_more_text: See archive...
+      #     show_more_url: archive.html
+
+      # - title: ventures of experimentations
+      #   post_list:
+      #     category: showcases
+
+      # - title: software development endeavours
+      #   post_list:
+      #     category: sde
+
+  - title: rss
+    url: feed.xml
