@@ -1,4 +1,4 @@
-title: Locality of Jeaguil
+title: Jeaguil
 author: Jesus Aguilera
 email: jesus.aguilera3401@gmail.com
 url: https://jeaguil.net
@@ -9,7 +9,7 @@ description: >
 favicon: "logo.png"
 
 theme_config:
-  appearance: "auto"
+  appearance: "dark"
   back_home_text: ".."
   date_format: "%Y-%m-%d"
   show_description: true
