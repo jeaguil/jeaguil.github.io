@@ -1,15 +1,7 @@
-PATH
-  remote: .
-  specs:
-    no-style-please (0.4.7)
-      jekyll (~> 3.9.0)
-      jekyll-feed (~> 0.15.1)
-      jekyll-seo-tag (~> 2.7.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
@@ -69,10 +61,13 @@ GEM
 
 PLATFORMS
   universal-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
+  jekyll (~> 3.9.0)
+  jekyll-feed (~> 0.15.1)
+  jekyll-seo-tag (~> 2.7.1)
   kramdown-parser-gfm
-  no-style-please!
 
 BUNDLED WITH
-   2.3.13
+   2.4.12
