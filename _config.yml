@@ -6,7 +6,7 @@ baseurl: ""
 description: >
   
 
-favicon: "logo.png"
+favicon: "favicon.ico"
 
 theme_config:
   appearance: "dark"
