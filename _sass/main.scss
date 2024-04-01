@@ -6,8 +6,9 @@
     &.ioda { filter: invert(0); }
   };
   a {
-    color: rgb(233, 149, 3);
+    color: rgb(200, 125, 0);
   }
+  background-color: rgb(215, 215, 215)
 }
 
 body[a="dark"] { @include dark-appearance; }
@@ -55,6 +56,10 @@ hr {
 
   &:before { content: '/////' }
   &:after { content: attr(data-content) '/////' }
+}
+
+a {
+  color: rgb(0, 0, 0);
 }
 
 table { width: 100%; align-items: normal; }

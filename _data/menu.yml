@@ -1,10 +1,10 @@
 entries:
   - title: <a href='about.html'>About</a>
-  - title: Info links
+  - title: Direct contact links
     entries:
       - title: "<a href='mailto:jesus.aguilera3401@gmail.com'>Email</a>"
       - title: "<a href='https://www.linkedin.com/in/jesuscmaguilera/' target='_blank'>Linkedin</a>"
-      - title: "<a href='https://github.com/jeaguil' target='_blank'>Github</a>"
+      - title: "<a href='https://github.com/jeaguil' target='_blank'>GitHub</a>"
 
   - title: All posts
     post_list:
@@ -40,5 +40,5 @@ entries:
       #   post_list:
       #     category: sde
 
-  - title: Rss
-    url: feed.xml
+  # - title: Rss
+  #   url: feed.xml
