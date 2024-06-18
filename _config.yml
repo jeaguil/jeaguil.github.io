@@ -9,13 +9,13 @@ description: >
 favicon: "favicon.ico"
 
 theme_config:
-  appearance: "auto"
+  appearance: "light"
   back_home_text: ".."
   date_format: "%Y-%m-%d"
   show_description: true
 
 sass:
-  style: :compressed
+  style: compressed
 
 plugins:
   - jekyll-feed
