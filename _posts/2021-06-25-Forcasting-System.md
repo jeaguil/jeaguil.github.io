@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Predicting the Power Output of a Solar Farm using Data Mining
-category: showcases
 ---
 
 Code for the project can be found [here.](https://github.com/jeaguil/svfa){:target="_blank"}
