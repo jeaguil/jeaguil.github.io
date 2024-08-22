@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Predicting the Power Output of a Solar Farm using Data Mining
+category: showcases
 ---
 
 Code for the project can be found [here.](https://github.com/jeaguil/svfa){:target="_blank"}
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Implemented Methods](#implemented-methods)
 - [Evaluation Results](#evaluation-results)
 
@@ -100,7 +102,7 @@ __Experimental Results__ - Table 1 shows the experimental results of the probabi
 
 Table 1: Model Evaluation results
 
-Zone ID | 1 | 2 | 3 | Overall
---- | --- | --- | --- | ---
-Mean Absolute Error | 0.05726 | 0.0635 | 0.0645 | 0.0617
-Root Mean Squared Error | 0.1157 | 0.1230 | 0.1249 | 0.1212
+| Zone ID                 | 1       | 2      | 3      | Overall |
+| ----------------------- | ------- | ------ | ------ | ------- |
+| Mean Absolute Error     | 0.05726 | 0.0635 | 0.0645 | 0.0617  |
+| Root Mean Squared Error | 0.1157  | 0.1230 | 0.1249 | 0.1212  |
