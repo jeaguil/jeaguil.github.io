@@ -4,12 +4,11 @@ email: jesus.aguilera3401@gmail.com
 url: https://jeaguil.net
 baseurl: ""
 description: >
-  
 
 favicon: "favicon.ico"
 
 theme_config:
-  appearance: "light"
+  appearance: "auto"
   back_home_text: ".."
   date_format: "%Y-%m-%d"
   show_description: true
